@@ -1,0 +1,187 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --background: #7ACC2D;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background);
+  height: 60px;
+}
+
+.nav ul{
+   display: flex;
+}
+
+.nav_content{
+  margin: 20px;
+}
+
+.nav_content .ul{
+  width: 200px;
+  justify-content: space-between;
+ 
+}
+
+.nav_content ul li{
+  list-style: none;
+  cursor: pointer;
+}
+.nav_content ul li:hover{
+  color: #ffffff;
+}
+
+.main .main_description{
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  
+}
+
+.product{
+  background-image: url("../asssets/curve.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+.product .product_container{
+  display: flex;
+  justify-content: center;
+}
+
+.product_description{
+  margin: 25px;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-top: -70px;
+}
+
+.button{
+  height: 40px;
+  width: 80%;
+  background-color: #7ACC2D;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 0px;
+  margin: 15px;
+  color:#ffffff;
+  font-size: 12px;
+}
+
+.button:hover{
+  background-color: #45820c;
+}
+
+/* .card{
+  border-bottom: 1px solid;
+} */
+
+.card_main{
+  display: flex;
+  justify-content: center;
+}
+
+.card_img{
+  width: 100px;
+}
+
+.card .card_main .card_content{
+  text-align: center;
+  margin: 20px;
+  width: 25%;
+  margin-top: 120px;
+}
+
+.content_main{
+  display: flex;
+  justify-content: center;
+}
+
+.text_main{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.description_main{
+  width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+  margin-top: 60px;
+  margin: 20px; 
+}
+
+.description_main .mentions_img{
+  width: 100%;
+}
+
+.mentions_text{
+  padding-bottom: 15px;
+}
+
+.footer{
+  background-color: #313337;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer a:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+  .product .product_container{
+    display: block;
+  }
+  .product_description{
+    margin: auto;
+    margin-bottom: 125px;
+    width: 70%;
+  }
+
+  .card_main{
+    display: block;
+  }
+
+  .card .card_main .card_content{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 80px;
+  }
+
+  .content_main{
+    display: block;
+  }
+  .content_main .description_main{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 468px){
+
+}
+
+@media screen and (max-width: 320px)
