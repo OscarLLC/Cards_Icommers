@@ -181,7 +181,9 @@ html,body{
 }
 
 @media screen and (max-width: 468px){
-
+  .nav{
+    height: 120px;
+  }
 }
 
 @media screen and (max-width: 320px)
