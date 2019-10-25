@@ -141,8 +141,12 @@ html,body{
   justify-content: space-around;
 }
 
-.footer a:hover{
+.footer a{
   color: #ffffff;
+}
+
+.footer a:hover{
+  color: #7ACC2D;
   cursor: pointer;
 }
 
