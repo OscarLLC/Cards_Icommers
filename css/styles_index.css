@@ -150,9 +150,12 @@ header nav li a:hover{
   justify-content: space-around;
 }
 
-.footer a:hover{
-  color: #ffffff;
-  cursor: pointer;
+.content_footer a{
+  color: white;
+}
+
+.content_footer a:hover{
+  color: aqua;
 }
 
 /*
