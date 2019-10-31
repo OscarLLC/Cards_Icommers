@@ -1,0 +1,75 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.description_compra .image_compra{
+  width: 136px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 475px;
+  width: 100%;
+}
+
+.text_main{
+  margin: 0px;
+}
+
+.description_compra{
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 25px;
+  text-align: center;
+  height: 250px;
+}
+
+.compra_product{
+  width:30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 25px;
+  text-align: center;
+  height: 250px;
+}
+
+.form{
+  margin: 45px;
+}
+
+.form .input{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1020px){
+
+}
+
+@media screen and (max-width: 768px){
+  
+  .container{
+    display: block;
+  }
+
+  .description_compra{
+    width: 90%;
+    
+  }
+
+  .compra_product{
+    width: 90%; 
+  }
+}
+
+@media screen and (max-width: 420px){
+
+}
+
+@media screen and (max-width:320px){
+
+}

@@ -24,6 +24,7 @@ header figure {
 
 header figure a{
   cursor: pointer;
+
 }
 
 header nav {
@@ -45,9 +46,8 @@ header nav li a {
 
 header nav li a:hover{
   color: #313337;
+  
 }
-
-
 
 .main{
   height: 260px;
