@@ -50,8 +50,11 @@ header nav li a:hover{
 
 
 .main{
-  text-align: center;
-  padding: 15px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px
 }
 
 .product{
@@ -157,6 +160,10 @@ header nav li a:hover{
 }
 
 @media screen and (max-width: 768px){
+
+  .main{
+    text-align: center;
+  }
   .product .product_container{
     display: block;
   }
